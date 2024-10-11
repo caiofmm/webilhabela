@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilhabela Turismo</title>    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="#">Pacotes</a></li>
+                <li><a href="#">Taxas</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    <h1>Ilhabela Turismo</h1>
+    <h3>Venha realizar a melhor viagem da sua vida!!</h3> 
+</header>
+    <section id="texto">
+       <div class="texto">
+
+    <p><b>Onde fica Ilhabela?</b><br>
+        Ilhabela está localizada no Litoral Norte de SP, bem no chamado eixo “Rio-São Paulo”. Embora seja um dos destinos prediletos dos paulistanos da capital, o arquipélago também fica bem próximo à região do Vale do Paraíba e litoral sul de SP.
+        </p>
+
+    <p> 
+        <b>Como funciona a travessia de balsa para Ilhabela?</b><br>
+Sim, a balsa é a única forma de acesso a Ilhabela, não há ponte como opção. A não ser que você tenha um barco, ou contrate um particular, para quem viaja de carro ou ônibus, é preciso embarcar em uma balsa para Ilhabela. </p>
+    
+    <p>
+        <b>Como chegar em Ilhabela de avião?</b><br>
+        Apesar de não ter um aeroporto próprio, é possível chegar em Ilhabela de avião. O aeroporto mais próximo é o de São José dos Campos, que fica a cerca de 100 km de distância. Porém, o aeroporto é pequeno e a companhia aérea Azul tem a maior parte de voos que lá aterrissam. De lá, você levará em torno de 2 horas até São Sebastião (de carro).
+        
+        O Aeroporto de Guarulhos é a melhor opção, por ser um aeroporto internacional tem interligação com a maioria das cidades brasileiras, além de outros países. Outra grande vantagem é que de lá saem ônibus direto para Ilhabela (São Sebastião), uma comodidade. Nossa dica é alugar um carro no aeroporto ou em uma locadora de veículos em Ilhabela, assim você terá mais comodidade para circular por Ilhabela e conhecer todas as belezas do destino. Nesse caso, veja mais informações sobre a travessia de balsa.
+        </p>
+        <br>
+       
+            <figure class="col text-canter">
+            <img src="ilha bela.jpg" width="300" height="300"> 
+            <img src="praia-do-jabaquara.webp"width="300" height="300">  
+            <img src="Praia_do_Bonete_-_Ilha_Bela.webp"width="300" height="300">
+            <img src="belezas-praia-do-bonete-ilhabela-sp.jpg"width="300" height="300">
+            <img src="ilhabela-castelhanos.jpg"width="300" height="300">
+            <img src="quandoi-ir-a-ilhabela.webp"width="300" height="300">
+            </figure>
+    </div>
+    </section>
+<br>
+
+<section id="taxas"> 
+
+    <h2> Serviço e Valores</h2>
+    <table>
+        
+        <thead>
+        <tr>
+            <th>
+                Serviço
+            </th>
+            <th>
+                Valor
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td> 
+                Reserva de hotel a diaria 
+            </td>
+            <td> 
+                R$350,00
+            </td>
+        <tr>
+                <td> 
+                    Passagens EMTU saindo de SP Capital...
+                </td>
+                <td>
+                    R$150,00
+                </td>
+        </tr>
+        <tr>
+                <td>
+                    Aluguel de carro por dia
+                </td>
+                <td>
+                    R$90,00
+                </td>
+        </tr>
+        </tr>
+        </tbody>
+    </table>
+</section>    
+<section>
+    <h2> Orçamento </h2>
+    <form method="GET" action="">
+       <fieldset>
+        <legend> Dados da viagem</legend>
+        <label>Nome</label>
+        <input type="text"  name="nome"><br><br>
+        
+        <label>Email</label>
+        <input type="email" required name="Email"><br><br>
+        
+        <label>Data de ida</label><br><br> 
+        <input type="date" name=" data ida"><br><br>
+        <label>Data de volta</label> <br><br>
+        <input type="date" name="data de volta"><br><br>
+
+        <label> Quantidade de pessoas </label><br><br>
+        <input type="number" name="Quantidade de pessoas"><br><br>
+<fieldset>
+    <legend> Escolha a forma de pagamento</legend>
+    <label>
+        <br><input type="radio" name="formaPagamento" value="cartão de crédito">Catão de crédito
+    </label>
+    <label>
+        <br><input type="radio" name="formaPagamento" value="boleto">Boleto
+    </label>
+    <label> 
+        <br><input type="radio" name="formaPagamento" value="pix">Pix
+    </label>
+</fieldset>
+<fieldset>
+    <legend> Escolha o prazo para pagamento</legend>
+    <select name="prazoPagamento">
+        <option value="avista" selected> Á vista</option>
+        <option value="5x"> 5x sem juros</option>
+        <option value="10x">10x com juros</option>
+    </select>
+</fieldset>        
+<label> Comentário</label><br>
+        <textarea> </textarea><br><br>
+    </fieldset>
+        <fieldset>
+        <legend> Quais serviços deseja contratar?</legend><br><br>
+       <label>
+        <br> <input type="checkbox" name="passagens" value="passagens">Compra de passagens
+       </label>
+       <label><br> <input type="checkbox" name="hospedagem" value="hospedagem">Reserva de hospedagem
+        </label>
+        <label>
+        <br> <input type="checkbox" name="veiculos" value="veiculos">Reserva de veiculos
+        </label>
+    </fieldset>
+        
+       <br> 
+    <br><button> Salvar </button>
+
+    </form>
+</section>  
+<br><hr> 
+
+
+    
+      <footer> Desenvolvido por Caio Mendes 14/08/2024</footer>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+
+</html>
+    
+  
